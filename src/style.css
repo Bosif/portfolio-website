@@ -9,34 +9,13 @@ body {
   font-size: 100px;
 }
 
-.image-half {
-  background: url(bg-1.jpg);
-  width: 50%;
-  position: absolute;
-  left: 0px;
-  height: 100%;
-}
-
-.text-half {
-  margin-top: 100px;
-  width: 50%;
-  position: absolute;
-  right: 0px;
-  height: 100%;
-}
-
-.image-half img {
-  max-height: 100%;
-}
-
 footer {
   background-color: white;
   color: black;
-  position: fixed;
-  bottom: 0px;
   width: 100%;
   text-align: center;
   padding: 10px;
+  font-size: 14px;
 }
 
 i {
@@ -51,4 +30,8 @@ i:hover {
 
 a {
   color: black;
+}
+
+.bg-image {
+  height: 60px;
 }
