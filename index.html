@@ -1,95 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/59c892171d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Gayathri:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="src/style.css" rel="stylesheet" />
-    <title>Front-end Developer Bo Rutjes</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-black p-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="/src/images/br logo.png"
-            alt="Bo Rutjes logo"
-            width="40"
-            height="40"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link active text-light fs-5"
-              aria-current="page"
-              href="#"
-              >Home</a
-            >
-            <a class="nav-link text-light fs-5 opacity-75" href="#"
-              >Portfolio</a
-            >
-            <a class="nav-link text-light fs-5 opacity-75" href="#">About me</a>
-            <a class="nav-link text-light fs-5 opacity-75" href="#"
-              >Contact me</a
-            >
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/59c892171d.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Gayathri:wght@100;400;700&display=swap"
+    rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="src/style.css" rel="stylesheet" />
+  <title>Front-end Developer Bo Rutjes</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-black p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand me-4" href="#"><img src="/src/images/br logo.png" alt="Bo Rutjes logo" width="40"
+          height="40" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-light fs-5" aria-current="page" href="#">Home</a>
+          <a class="nav-link text-light fs-5 opacity-75" href="#">Portfolio</a>
+          <a class="nav-link text-light fs-5 opacity-75" href="#">About me</a>
+          <a class="nav-link text-light fs-5 opacity-75" href="#">Contact me</a>
         </div>
       </div>
-    </nav>
-    <div class="container">
+    </div>
+  </nav>
+  <div>
     <div class="row">
       <div class="col-6">
-        <div class="bg-image img-fluid mb-2" 
-        style="background-image: url('src/images/Cover\ photo.jpg'); height: 100vh; width: 120vh; margin-left:-350px; margin-top:-100px; background-repeat:no-repeat; margin-bottom:0px">
-</div>
-</div>
+        <img alt="background_image" src="src/images/Cover photo.jpg" class="w-100" />
+      </div>
       <div class="col-6 bg-image img-fluid text-center mt-5">
         <h1 class="name">Bo Rutjes</h1>
-        <h2>Front-end Developer <br/></h2>
-        <br/>
+        <h2>Front-end Developer <br /></h2>
+        <br />
         <h4>A beginning web developer focused on creating simplistic beautiful designs</h4>
-        <hr />
+        <hr /><br />
         <h4>HTML - CSS - JS</h4>
+        <div class="btn btn-outline-light mt-4 fs-4">View Projects</div>
       </div>
     </div>
-    </div>
-        
-      
-    <footer>
-      This project was coded by Bo Rutjes and is <a href="https://github.com/Bosif/portfolio-website" target="_blank">open sourced</a> on GitHub<br/><a href="https://www.linkedin.com/in/bo-rutjes-748b132ba/" target="_blank"><i class="fa-brands fa-linkedin"></a></i>
-      <a href="mailto:boannarutjes@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://github.com/Bosif" target="_blank"><i class="fa-brands fa-github"></i></a>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+  </div>
+
+
+  <footer>
+    This project was coded by Bo Rutjes and is <a href="https://github.com/Bosif/portfolio-website" target="_blank">open-sourced</a> on GitHub<br /><a href="https://www.linkedin.com/in/bo-rutjes-748b132ba/" target="_blank"><i
+        class="fa-brands fa-linkedin"></a></i>
+    <a href="mailto:boannarutjes@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/Bosif" target="_blank"><i class="fa-brands fa-github"></i></a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html> 
