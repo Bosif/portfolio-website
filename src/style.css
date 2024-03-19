@@ -3,6 +3,7 @@ body {
   background-color: black;
   color: white;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 .name {
@@ -23,6 +24,8 @@ footer {
 i {
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 i:hover {
@@ -32,6 +35,10 @@ i:hover {
 
 a {
   color: black;
+}
+
+a:hover {
+  color: grey;
 }
 
 h3 {
