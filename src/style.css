@@ -35,6 +35,8 @@ footer {
   background-color: #fcfcfc;
   color: black;
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 
 i {
