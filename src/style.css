@@ -32,8 +32,8 @@ p {
 }
 
 footer {
-  background-color: #fcfcfc;
-  color: black;
+  color: #fcfcfc;
+  background-color: black;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -53,11 +53,16 @@ i:hover {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 a:hover {
   color: grey;
+}
+
+.no-highlight:hover {
+  color: white;
+  cursor: default;
 }
 
 h3 {
